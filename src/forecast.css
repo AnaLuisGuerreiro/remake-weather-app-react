@@ -1,0 +1,84 @@
+.Forecast .strings {
+  width: 100%;
+}
+
+.Forecast .string-1 {
+  position: fixed;
+  margin-left: -380px;
+}
+
+.Forecast .string-2 {
+  position: fixed;
+  margin-left: -252px;
+}
+
+.Forecast .string-3 {
+  position: fixed;
+  margin-left: -130px;
+}
+
+.Forecast .string-4 {
+  position: fixed;
+  margin-left: -1px;
+}
+
+.Forecast .string-5 {
+  position: fixed;
+  margin-left: 128px;
+}
+
+.Forecast .week-1,
+.Forecast .week-2,
+.Forecast .week-3,
+.Forecast .week-4,
+.Forecast .week-5 {
+  display: inline-block;
+  position: fixed;
+  width: 100px;
+  border-radius: 3px;
+  box-shadow: 20px 25px 15px #00000081;
+  border: 3px solid #000;
+  background-color: #2c98eb7c;
+}
+
+.Forecast .week-1 {
+  margin-top: 70px;
+  margin-left: -305px;
+}
+
+.Forecast .week-2 {
+  margin-top: 184px;
+  margin-left: -175px;
+}
+
+.Forecast .week-3 {
+  margin-top: 230px;
+  margin-left: -50px;
+}
+
+.Forecast .week-4 {
+  margin-top: 153px;
+  margin-left: 78px;
+}
+
+.Forecast .week-5 {
+  margin-top: 205px;
+  margin-left: 206px;
+}
+
+.Forecast .days {
+  display: block;
+  margin: 0 auto;
+  border-bottom: 3px solid #000;
+  text-align: center;
+  background-color: #2c98eb;
+  margin-bottom: 9px;
+}
+
+.Forecast .weather_min {
+  opacity: 0.8;
+}
+
+.Forecast .days_icon {
+  margin-top: -5;
+}

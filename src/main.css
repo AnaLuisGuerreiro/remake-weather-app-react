@@ -1,0 +1,54 @@
+.Main .box_info {
+  border: 3px solid #000;
+  box-shadow: 20px 25px 15px #00000081;
+  border-radius: 3px;
+  display: inline-block;
+  width: 610px;
+  padding: 10px 0 10px 0;
+  background: linear-gradient(
+    to left,
+    rgba(44, 152, 235, 0.2) 10%,
+    rgba(44, 152, 235, 0.6),
+    rgba(44, 152, 235, 1)
+  );
+}
+.Main .main_info {
+  margin-top: 0;
+}
+
+.Main .icon_day {
+  position: fixed;
+  margin-left: -115px;
+  width: 80px;
+  margin-top: -16px;
+}
+.Main .day_temp {
+  margin-right: 388px;
+  margin-top: 20px;
+  background-color: #1c47605e;
+  border-radius: 0 400px 15px 0;
+  text-align: left;
+  padding: 3px;
+}
+
+.Main .current_temp {
+  position: fixed;
+  font-size: 45px;
+  margin-left: 234px;
+}
+
+.Main .celsius {
+  font-size: 23px;
+  margin-bottom: 30px;
+  padding: 2px;
+  margin-left: 105px;
+}
+
+.Main .precipitation_wind {
+  margin-left: 405px;
+  background-color: #1c47606b;
+  padding: 3px;
+  border-radius: 325px 0 0 15px;
+  text-align: right;
+  margin-top: 26px;
+}
