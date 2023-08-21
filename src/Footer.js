@@ -15,7 +15,7 @@ export default function Footer() {
       <a href="https://www.linkedin.com/in/ana-luis-guerreiro/">
         <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
       </a>
-      <a href="https://github.com/AnaLuisGuerreiro/weather_app">
+      <a href="https://github.com/AnaLuisGuerreiro/weather-react">
         <FontAwesomeIcon icon={faGithub} className="github" />
       </a>
     </footer>
